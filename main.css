@@ -1,0 +1,200 @@
+/* the styles for the HTML elements */
+body {
+    margin-top: 0;
+    background-color: #333;
+    /*font-family: Arial, Helvetica, sans-serif;*/
+    font-family:monospace;
+}
+p{font-size: 1rem;}
+.tag_highlight{color:#973333;}
+.title{color:#000; font-size: 1.2rem;text-decoration: 3px solid #973333 underline;text-transform: uppercase;}
+h1 {
+    font-size: 2.8rem;
+    margin: 0;
+    /*padding: .5em 0 .25em;*/
+}
+h2 {
+    font-size: 1.4rem;
+    margin: 0;
+    padding: .25em 0 .5em;
+}
+h3{
+  font-size: 1.4rem;
+  margin: 0;
+  padding: .25em 0 .5em;
+  text-decoration: 3px solid underline #973333;
+}
+
+
+
+h1, h2 {
+    color: #444444;
+}
+
+ul {
+    margin: 0 0 1em 0;
+    padding: 0 0 0 2.5em;
+}
+li {
+    margin: 0;
+    padding: 0;
+}
+
+ul.nav {
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+ul.nav li {
+    padding-bottom: 0.5em;
+}
+
+a {
+    color: #6c877f;
+    font-weight: bold;
+
+}
+a:hover {
+    color: #973333;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+td, th {
+    border: 1px dashed black;
+    padding: .2em .5em .2em .5em;
+    vertical-align: top;
+    text-align: left;
+}
+form {
+    margin: 0;
+}
+br {
+    clear: left;
+}
+
+/* the styles for the div tags that divide the page into sections */
+#page {
+    width: 1080px;
+    margin: 0 auto;
+    background-color: #c2c2c2;
+    border: 1px solid rgb(119, 75, 77);
+}
+.header_bg{
+  background: #fff;
+  background-image:url('https://foodsafetyconsulting.com/wp-content/uploads/2020/12/banner-curve.png');
+  background-position:bottom center;
+  height:180px;
+}
+#header {
+
+    margin: 0;
+  /*  border-bottom: 2px solid rgb(119, 75, 77);*/
+    padding: .5em 2em;
+}
+
+#main {
+    margin: 0;
+    padding: 0px .5em 2em .5em;
+    background: #f5f5f5;
+    height: 600px;
+}
+
+#sidebar {
+    float: left;
+    padding-left:1.5em;
+}
+
+#content {
+    float: right;
+    padding-top:3em;
+    padding-right:1.5em;
+    padding-bottom: 1.5em;
+}
+#left_column {
+    float: left;
+    width: 150px;
+    padding-left: 1.5em;
+}
+#right_column {
+    float: left;
+    padding-left: 1em;
+}
+#footer {
+    clear: both;
+    background: #888;
+    height: 40px;
+    padding-right: 1em;
+    border-top: 2px solid rgb(119, 75, 77);
+}
+#footer p {
+    text-align: right;
+    font-size: 80%;
+    margin: 1em 0;
+}
+
+.right {
+    text-align: right;
+}
+
+/********************************************************************
+* Additional styles for the Product Manager application
+********************************************************************/
+#add_product_form {
+    margin: .5em 0 2em;
+}
+#add_product_form label {
+    width: 6em;
+    padding-right: 1em;
+    padding-bottom: .5em;
+    float: left;
+}
+#add_product_form input {
+    float: left;
+}
+#add_product_form input[text] {
+    width: 15em;
+}
+
+
+#header_top{
+  width: 100%;
+  height: 100px;
+}
+#header_top img{
+  float: left;
+}
+#header_top ul{float: right;height: 25px;margin-top:40px;}
+
+#header_top ul li{
+  text-decoration: none;
+  display:inline;
+  list-style:none;
+  padding:10px 20px;
+}
+#header_top ul li a {
+  text-decoration: none;
+  background: #6c877f;
+  color:#fff;
+  border-radius: 5px;
+  border:2px solid #555;
+  padding:10px 20px;
+  font-family: sans-serif;
+  font-size: .6rem;
+}
+#header_top ul li a:hover{
+  background: #973333;
+  color:#fff;
+}
+
+.header_bottom{}
+#header_bottom h1{text-align: center;margin:auto;}
+
+.footer_page{float: right;}
+.footer_ticket{float: left;}
+a.footer_ticket{color:#973333;margin:.6em;}
+p.footer_page{font-size: .8rem!important;}
+.future_updates{background: #fff;border: 2px solid #fcb100;margin-top:3em;padding:20px;}
