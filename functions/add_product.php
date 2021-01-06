@@ -1,6 +1,6 @@
 <?php
 // Get the product data
-$category_id = $_POST['category_id'];
+$category_id = 'Assessments';
 $code = $_POST['code'];
 $name = $_POST['name'];
 $price = $_POST['price'];

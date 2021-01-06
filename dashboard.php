@@ -1,5 +1,14 @@
+<!--# RICHARD CASTRO-->
+<!--# TEAMS.ACHESONGROUP  //  LANDING PAGE-->
+<!--#---------------------------------------->
+<!--# NOVEMBER  6, 2020 - BUILT DATABASE-->
+<!--# NOVEMBER 28, 2020 - STARTED THE PHP-->
+<!--# DECEMBER  4, 2020 - STARTED THE HTML/CSS-->
+<!--# DECEMBER 23, 2020 - CLEANED, BACKUP, AND LOADED ONLINE-->
+
+
 <?php
-    require_once('database.php');
+    require_once('database/database.php');
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -8,7 +17,7 @@
 <!-- the head section -->
 <head>
     <title>Welcome Team Member</title>
-    <link rel="stylesheet" type="text/css" href="main.css" />
+    <link rel="stylesheet" type="text/css" href="assets/main.css" />
 </head>
 
 <!-- the body section -->
@@ -17,11 +26,12 @@
 
     <div id="header" class="header_bg">
       <div id="header_top">
-        <img src='logo.png'/>
+        <img src='images/logo.png'/>
           <ul>
-            <li><a href="welcome.php">Home</a></li>
-            <li><a href="index.php">TAGin Manager</a></li>
-            <li><a href="#">Ticket Center</a></li>
+            <li><a href="dashboard.php">Home</a></li>
+            <li><a href="Tracker.php">TAGin Manager</a></li>
+            <li><a href="TAGinRequest/index.html" target="_blank">TAGin Request Form</a></li>
+            <li><a href="bugreport/index.html">Ticket Center</a></li>
           </ul>
       </div>
       <div id="header_bottom">
@@ -77,7 +87,7 @@
                 24 hours. To gain access to this portal in the future, you will need log in<br>
                 credentials.
               </p>
-              <a href="#">CREATE YOUR ACCOUNT</a>
+              <a href="https://covid.achesongroup.com/register" target="_blank">CREATE YOUR ACCOUNT</a>
             </div>
         </div>
     </div>

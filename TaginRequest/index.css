@@ -1,0 +1,27 @@
+html{background:#c2c2c2;font-family: monospace;}
+body{box-shadow:1px 1px 8px 1px #333;width:460px; margin:auto; background:#fff; margin-top:40px; border-radius:10px; border:2px solid #fcb100;}
+h3, h5{color:#555;}
+
+.sv-container-modern__title h3,.sv-container-modern__title h5{width:375px;text-align: center;}
+.sv-container-modern__title{padding-top:30px;}
+h5.sv-title span{font-size: 1.2rem;}
+
+.sv-header__text h3 span{ font-size: 2.4rem;font-family: monospace;}
+.sv-header__text h5 span{font-size: 1.2rem;text-decoration: underline;color:#973333;font-family: monospace;}
+
+
+.sv-logo--left {display: block;text-align: center;}
+
+
+.tag_highlight{color:#973333;}
+input{font-size: 1rem;color:#973333;}
+.sv-text{color:#999;}
+.sv-row.sv-clearfix{padding-bottom:20px;}
+.sv-footer.sv-body__footer.sv-clearfix{}
+.sv-footer{padding:20px 10px;}
+.sv-body__footer{margin-top:0px;}
+#surveyResult{visibility: hidden;position: absolute;}
+.sv-body.sv-completedpage h3{font-size: 1rem;margin:auto;padding:10px;}
+.sv-completedpage::before{background: url('./pic.png') center no-repeat;width:140px;height: 90px;background-size: contain;margin:auto;
+margin-left:30%;}
+input#sq_100i::placeholder,input#sq_101i::placeholder,input#sq_102i::placeholder,input#sq_105i::placeholder{color:#888;}
